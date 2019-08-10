@@ -6,4 +6,4 @@ if [ "$1" != "pgbadger" ]; then
 fi
 
 cd /log
-pgbadger /log/*
+pgbadger /log/*.log
